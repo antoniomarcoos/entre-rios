@@ -1,0 +1,992 @@
+{
+  "source": "https://geoftp.ibge.gov.br/organizacao_do_territorio/malhas_territoriais/malhas_de_setores_censitarios__divisoes_intramunicipais/censo_2022/bairros/shp/UF/PI_bairros_CD2022.zip",
+  "reference_year": 2022,
+  "municipality_code": "2211001",
+  "point_method": "Point on surface (Shapely representative_point) inside each IBGE neighborhood polygon",
+  "neighborhoods": [
+    {
+      "id": "acarape",
+      "name": "Acarapé",
+      "latitude": -5.071504,
+      "longitude": -42.830324,
+      "ibge_code": "2211001009",
+      "source_name": "Acarapé"
+    },
+    {
+      "id": "aeroporto",
+      "name": "Aeroporto",
+      "latitude": -5.060598,
+      "longitude": -42.821256,
+      "ibge_code": "2211001007",
+      "source_name": "Aeroporto"
+    },
+    {
+      "id": "agua-mineral",
+      "name": "Água Mineral",
+      "latitude": -5.046797,
+      "longitude": -42.807706,
+      "ibge_code": "2211001108",
+      "source_name": "Água Mineral"
+    },
+    {
+      "id": "alegre",
+      "name": "Alegre",
+      "latitude": -5.008326,
+      "longitude": -42.817986,
+      "ibge_code": "2211001117",
+      "source_name": "Alegre"
+    },
+    {
+      "id": "alto-alegre",
+      "name": "Alto Alegre",
+      "latitude": -5.039643,
+      "longitude": -42.824202,
+      "ibge_code": "2211001003",
+      "source_name": "Alto Alegre"
+    },
+    {
+      "id": "angelica",
+      "name": "Angélica",
+      "latitude": -5.205079,
+      "longitude": -42.762699,
+      "ibge_code": "2211001118",
+      "source_name": "Angelica"
+    },
+    {
+      "id": "angelim",
+      "name": "Angelim",
+      "latitude": -5.18075,
+      "longitude": -42.782055,
+      "ibge_code": "2211001030",
+      "source_name": "Angelim"
+    },
+    {
+      "id": "areias",
+      "name": "Areias",
+      "latitude": -5.157448,
+      "longitude": -42.797034,
+      "ibge_code": "2211001032",
+      "source_name": "Areias"
+    },
+    {
+      "id": "aroeiras",
+      "name": "Aroeiras",
+      "latitude": -5.006192,
+      "longitude": -42.796705,
+      "ibge_code": "2211001066",
+      "source_name": "Aroeiras"
+    },
+    {
+      "id": "arvores-verdes",
+      "name": "Árvores Verdes",
+      "latitude": -5.038841,
+      "longitude": -42.728042,
+      "ibge_code": "2211001119",
+      "source_name": "Árvores Verdes"
+    },
+    {
+      "id": "beira-rio",
+      "name": "Beira Rio",
+      "latitude": -5.110297,
+      "longitude": -42.774598,
+      "ibge_code": "2211001051",
+      "source_name": "Beira Rio"
+    },
+    {
+      "id": "bela-vista",
+      "name": "Bela Vista",
+      "latitude": -5.134093,
+      "longitude": -42.771454,
+      "ibge_code": "2211001033",
+      "source_name": "Bela Vista"
+    },
+    {
+      "id": "bom-jesus",
+      "name": "Bom Jesus",
+      "latitude": -5.03899,
+      "longitude": -42.815428,
+      "ibge_code": "2211001013",
+      "source_name": "Bom Jesus"
+    },
+    {
+      "id": "bom-principio",
+      "name": "Bom Princípio",
+      "latitude": -5.118996,
+      "longitude": -42.705785,
+      "ibge_code": "2211001114",
+      "source_name": "Bom Princípio"
+    },
+    {
+      "id": "brasilar",
+      "name": "Brasilar",
+      "latitude": -5.18075,
+      "longitude": -42.756286,
+      "ibge_code": "2211001034",
+      "source_name": "Brasilar"
+    },
+    {
+      "id": "buenos-aires",
+      "name": "Buenos Aires",
+      "latitude": -5.038099,
+      "longitude": -42.808849,
+      "ibge_code": "2211001011",
+      "source_name": "Buenos Aires"
+    },
+    {
+      "id": "cabral",
+      "name": "Cabral",
+      "latitude": -5.081616,
+      "longitude": -42.80145,
+      "ibge_code": "2211001095",
+      "source_name": "Cabral"
+    },
+    {
+      "id": "campestre",
+      "name": "Campestre",
+      "latitude": -5.0673,
+      "longitude": -42.754647,
+      "ibge_code": "2211001067",
+      "source_name": "Campestre"
+    },
+    {
+      "id": "catarina",
+      "name": "Catarina",
+      "latitude": -5.12341,
+      "longitude": -42.779385,
+      "ibge_code": "2211001035",
+      "source_name": "Catarina"
+    },
+    {
+      "id": "centro",
+      "name": "Centro",
+      "latitude": -5.091578,
+      "longitude": -42.811453,
+      "ibge_code": "2211001094",
+      "source_name": "Centro"
+    },
+    {
+      "id": "chapadinha",
+      "name": "Chapadinha",
+      "latitude": -4.971727,
+      "longitude": -42.835276,
+      "ibge_code": "2211001120",
+      "source_name": "Chapadinha"
+    },
+    {
+      "id": "cidade-jardim",
+      "name": "Cidade Jardim",
+      "latitude": -5.021523,
+      "longitude": -42.775196,
+      "ibge_code": "2211001121",
+      "source_name": "Cidade jardim"
+    },
+    {
+      "id": "cidade-nova",
+      "name": "Cidade Nova",
+      "latitude": -5.109418,
+      "longitude": -42.788727,
+      "ibge_code": "2211001097",
+      "source_name": "Cidade Nova"
+    },
+    {
+      "id": "colorado",
+      "name": "Colorado",
+      "latitude": -5.096683,
+      "longitude": -42.733215,
+      "ibge_code": "2211001053",
+      "source_name": "Colorado"
+    },
+    {
+      "id": "comprida",
+      "name": "Comprida",
+      "latitude": -5.118753,
+      "longitude": -42.767916,
+      "ibge_code": "2211001052",
+      "source_name": "Comprida"
+    },
+    {
+      "id": "cristo-rei",
+      "name": "Cristo Rei",
+      "latitude": -5.102049,
+      "longitude": -42.785694,
+      "ibge_code": "2211001096",
+      "source_name": "Cristo Rei"
+    },
+    {
+      "id": "distrito-industrial",
+      "name": "Distrito Industrial",
+      "latitude": -5.148083,
+      "longitude": -42.800467,
+      "ibge_code": "2211001036",
+      "source_name": "Distrito Industrial"
+    },
+    {
+      "id": "embrapa",
+      "name": "Embrapa",
+      "latitude": -5.034436,
+      "longitude": -42.793732,
+      "ibge_code": "2211001015",
+      "source_name": "Embrapa"
+    },
+    {
+      "id": "esplanada",
+      "name": "Esplanada",
+      "latitude": -5.190408,
+      "longitude": -42.755041,
+      "ibge_code": "2211001037",
+      "source_name": "Esplanada"
+    },
+    {
+      "id": "extrema",
+      "name": "Extrema",
+      "latitude": -5.123913,
+      "longitude": -42.758674,
+      "ibge_code": "2211001054",
+      "source_name": "Extrema"
+    },
+    {
+      "id": "fatima",
+      "name": "Fátima",
+      "latitude": -5.068734,
+      "longitude": -42.793797,
+      "ibge_code": "2211001068",
+      "source_name": "Fátima"
+    },
+    {
+      "id": "flor-do-campo",
+      "name": "Flor do Campo",
+      "latitude": -5.098108,
+      "longitude": -42.708519,
+      "ibge_code": "2211001116",
+      "source_name": "Flor do campo"
+    },
+    {
+      "id": "frei-serafim",
+      "name": "Frei Serafim",
+      "latitude": -5.086127,
+      "longitude": -42.797291,
+      "ibge_code": "2211001098",
+      "source_name": "Frei Serafim"
+    },
+    {
+      "id": "gurupi",
+      "name": "Gurupi",
+      "latitude": -5.084803,
+      "longitude": -42.740178,
+      "ibge_code": "2211001055",
+      "source_name": "Gurupi"
+    },
+    {
+      "id": "horto",
+      "name": "Horto",
+      "latitude": -5.06572,
+      "longitude": -42.77722,
+      "ibge_code": "2211001069",
+      "source_name": "Horto"
+    },
+    {
+      "id": "ilhotas",
+      "name": "Ilhotas",
+      "latitude": -5.091048,
+      "longitude": -42.789459,
+      "ibge_code": "2211001099",
+      "source_name": "Ilhotas"
+    },
+    {
+      "id": "ininga",
+      "name": "Ininga",
+      "latitude": -5.053648,
+      "longitude": -42.794933,
+      "ibge_code": "2211001070",
+      "source_name": "Iningá"
+    },
+    {
+      "id": "itaperu",
+      "name": "Itaperu",
+      "latitude": -5.04838,
+      "longitude": -42.821665,
+      "ibge_code": "2211001029",
+      "source_name": "Itaperu"
+    },
+    {
+      "id": "itarare",
+      "name": "Itararé",
+      "latitude": -5.105206,
+      "longitude": -42.760154,
+      "ibge_code": "2211001056",
+      "source_name": "Itararé"
+    },
+    {
+      "id": "jacinta-andrade",
+      "name": "Jacinta Andrade",
+      "latitude": -4.986712,
+      "longitude": -42.813096,
+      "ibge_code": "2211001122",
+      "source_name": "Jacinta Andrade"
+    },
+    {
+      "id": "joquei",
+      "name": "Jóquei",
+      "latitude": -5.076682,
+      "longitude": -42.790099,
+      "ibge_code": "2211001071",
+      "source_name": "Jóquei"
+    },
+    {
+      "id": "livramento",
+      "name": "Livramento",
+      "latitude": -5.087917,
+      "longitude": -42.75507,
+      "ibge_code": "2211001057",
+      "source_name": "Livramento"
+    },
+    {
+      "id": "lourival-parente",
+      "name": "Lourival Parente",
+      "latitude": -5.133567,
+      "longitude": -42.787811,
+      "ibge_code": "2211001038",
+      "source_name": "Lourival Parente"
+    },
+    {
+      "id": "macauba",
+      "name": "Macaúba",
+      "latitude": -5.110266,
+      "longitude": -42.801269,
+      "ibge_code": "2211001104",
+      "source_name": "Macaúba"
+    },
+    {
+      "id": "mafrense",
+      "name": "Mafrense",
+      "latitude": -5.046682,
+      "longitude": -42.832386,
+      "ibge_code": "2211001017",
+      "source_name": "Mafrense"
+    },
+    {
+      "id": "mafua",
+      "name": "Mafuá",
+      "latitude": -5.078344,
+      "longitude": -42.816325,
+      "ibge_code": "2211001101",
+      "source_name": "Mafuá"
+    },
+    {
+      "id": "marques-de-paranagua",
+      "name": "Marquês de Paranaguá",
+      "latitude": -5.075301,
+      "longitude": -42.811869,
+      "ibge_code": "2211001102",
+      "source_name": "Marquês de Paranaguá"
+    },
+    {
+      "id": "matadouro",
+      "name": "Matadouro",
+      "latitude": -5.066864,
+      "longitude": -42.833504,
+      "ibge_code": "2211001020",
+      "source_name": "Matadouro"
+    },
+    {
+      "id": "matinha",
+      "name": "Matinha",
+      "latitude": -5.081677,
+      "longitude": -42.825577,
+      "ibge_code": "2211001100",
+      "source_name": "Matinha"
+    },
+    {
+      "id": "memorare",
+      "name": "Memorare",
+      "latitude": -5.045262,
+      "longitude": -42.817285,
+      "ibge_code": "2211001019",
+      "source_name": "Memorare"
+    },
+    {
+      "id": "mocambinho",
+      "name": "Mocambinho",
+      "latitude": -5.028704,
+      "longitude": -42.81327,
+      "ibge_code": "2211001021",
+      "source_name": "Mocambinho"
+    },
+    {
+      "id": "monte-castelo",
+      "name": "Monte Castelo",
+      "latitude": -5.10704,
+      "longitude": -42.796142,
+      "ibge_code": "2211001105",
+      "source_name": "Monte castelo"
+    },
+    {
+      "id": "monte-verde",
+      "name": "Monte Verde",
+      "latitude": -4.992867,
+      "longitude": -42.819651,
+      "ibge_code": "2211001123",
+      "source_name": "Monte Verde"
+    },
+    {
+      "id": "morada-do-sol",
+      "name": "Morada do Sol",
+      "latitude": -5.069823,
+      "longitude": -42.766013,
+      "ibge_code": "2211001073",
+      "source_name": "Morada do Sol"
+    },
+    {
+      "id": "morada-nova",
+      "name": "Morada Nova",
+      "latitude": -5.123491,
+      "longitude": -42.791495,
+      "ibge_code": "2211001039",
+      "source_name": "Morada Nova"
+    },
+    {
+      "id": "morro-da-esperanca",
+      "name": "Morro da Esperança",
+      "latitude": -5.071228,
+      "longitude": -42.806443,
+      "ibge_code": "2211001103",
+      "source_name": "Morro da Esperança"
+    },
+    {
+      "id": "morros",
+      "name": "Morros",
+      "latitude": -5.026731,
+      "longitude": -42.756153,
+      "ibge_code": "2211001072",
+      "source_name": "Morros"
+    },
+    {
+      "id": "noivos",
+      "name": "Noivos",
+      "latitude": -5.08528,
+      "longitude": -42.785557,
+      "ibge_code": "2211001075",
+      "source_name": "Noivos"
+    },
+    {
+      "id": "nossa-senhora-das-gracas",
+      "name": "Nossa Senhora das Graças",
+      "latitude": -5.100378,
+      "longitude": -42.80448,
+      "ibge_code": "2211001106",
+      "source_name": "N.S.das Graças"
+    },
+    {
+      "id": "nova-brasilia",
+      "name": "Nova Brasília",
+      "latitude": -5.049976,
+      "longitude": -42.829122,
+      "ibge_code": "2211001022",
+      "source_name": "Nova Brasília"
+    },
+    {
+      "id": "novo-horizonte",
+      "name": "Novo Horizonte",
+      "latitude": -5.111233,
+      "longitude": -42.746638,
+      "ibge_code": "2211001058",
+      "source_name": "Novo Horizonte"
+    },
+    {
+      "id": "novo-uruguai",
+      "name": "Novo Uruguai",
+      "latitude": -5.053521,
+      "longitude": -42.725942,
+      "ibge_code": "2211001074",
+      "source_name": "Novo Uruguai"
+    },
+    {
+      "id": "olarias",
+      "name": "Olarias",
+      "latitude": -5.041477,
+      "longitude": -42.838136,
+      "ibge_code": "2211001023",
+      "source_name": "Olarias"
+    },
+    {
+      "id": "parque-alvorada",
+      "name": "Parque Alvorada",
+      "latitude": -5.061784,
+      "longitude": -42.82802,
+      "ibge_code": "2211001124",
+      "source_name": "Parque Alvorada"
+    },
+    {
+      "id": "parque-brasil",
+      "name": "Parque Brasil",
+      "latitude": -5.008824,
+      "longitude": -42.838601,
+      "ibge_code": "2211001125",
+      "source_name": "Parque Brasil"
+    },
+    {
+      "id": "parque-ideal",
+      "name": "Parque Ideal",
+      "latitude": -5.10003,
+      "longitude": -42.748656,
+      "ibge_code": "2211001059",
+      "source_name": "Parque Ideal"
+    },
+    {
+      "id": "parque-jacinta",
+      "name": "Parque Jacinta",
+      "latitude": -5.170441,
+      "longitude": -42.764741,
+      "ibge_code": "2211001040",
+      "source_name": "Parque Jacinta"
+    },
+    {
+      "id": "parque-juliana",
+      "name": "Parque Juliana",
+      "latitude": -5.166853,
+      "longitude": -42.755139,
+      "ibge_code": "2211001041",
+      "source_name": "Parque Juliana"
+    },
+    {
+      "id": "parque-piaui",
+      "name": "Parque Piauí",
+      "latitude": -5.143934,
+      "longitude": -42.785605,
+      "ibge_code": "2211001043",
+      "source_name": "Parque do Piauí"
+    },
+    {
+      "id": "parque-poti",
+      "name": "Parque Poti",
+      "latitude": -5.111777,
+      "longitude": -42.737562,
+      "ibge_code": "2211001060",
+      "source_name": "Parque Poti"
+    },
+    {
+      "id": "parque-sao-joao",
+      "name": "Parque São João",
+      "latitude": -5.131112,
+      "longitude": -42.801465,
+      "ibge_code": "2211001042",
+      "source_name": "Parque São João"
+    },
+    {
+      "id": "parque-sul",
+      "name": "Parque Sul",
+      "latitude": -5.144692,
+      "longitude": -42.7528,
+      "ibge_code": "2211001126",
+      "source_name": "Parque Sul"
+    },
+    {
+      "id": "pedra-miuda",
+      "name": "Pedra Miúda",
+      "latitude": -5.205079,
+      "longitude": -42.742915,
+      "ibge_code": "2211001127",
+      "source_name": "Pedra Miúda"
+    },
+    {
+      "id": "pedra-mole",
+      "name": "Pedra Mole",
+      "latitude": -5.012596,
+      "longitude": -42.780873,
+      "ibge_code": "2211001076",
+      "source_name": "Pedra Mole"
+    },
+    {
+      "id": "picarra",
+      "name": "Piçarra",
+      "latitude": -5.094103,
+      "longitude": -42.79867,
+      "ibge_code": "2211001004",
+      "source_name": "Piçarra"
+    },
+    {
+      "id": "picarreira",
+      "name": "Piçarreira",
+      "latitude": -5.059625,
+      "longitude": -42.762497,
+      "ibge_code": "2211001079",
+      "source_name": "Piçarreira"
+    },
+    {
+      "id": "pio-xii",
+      "name": "Pio XII",
+      "latitude": -5.114589,
+      "longitude": -42.80258,
+      "ibge_code": "2211001006",
+      "source_name": "Pio XII"
+    },
+    {
+      "id": "piraja",
+      "name": "Pirajá",
+      "latitude": -5.07554,
+      "longitude": -42.827476,
+      "ibge_code": "2211001107",
+      "source_name": "Pirajá"
+    },
+    {
+      "id": "planalto",
+      "name": "Planalto",
+      "latitude": -5.057202,
+      "longitude": -42.775802,
+      "ibge_code": "2211001078",
+      "source_name": "Planalto"
+    },
+    {
+      "id": "por-enquanto",
+      "name": "Por Enquanto",
+      "latitude": -5.074836,
+      "longitude": -42.804531,
+      "ibge_code": "2211001002",
+      "source_name": "Por Enquanto"
+    },
+    {
+      "id": "portal-da-alegria",
+      "name": "Portal da Alegria",
+      "latitude": -5.190524,
+      "longitude": -42.741888,
+      "ibge_code": "2211001128",
+      "source_name": "Portal da Alegria"
+    },
+    {
+      "id": "porto-do-centro",
+      "name": "Porto do Centro",
+      "latitude": -5.041871,
+      "longitude": -42.757906,
+      "ibge_code": "2211001077",
+      "source_name": "Porto do Centro"
+    },
+    {
+      "id": "poti-velho",
+      "name": "Poti Velho",
+      "latitude": -5.038426,
+      "longitude": -42.82864,
+      "ibge_code": "2211001024",
+      "source_name": "Poti Velho"
+    },
+    {
+      "id": "primavera",
+      "name": "Primavera",
+      "latitude": -5.063323,
+      "longitude": -42.811567,
+      "ibge_code": "2211001025",
+      "source_name": "Primavera"
+    },
+    {
+      "id": "promorar",
+      "name": "Promorar",
+      "latitude": -5.149698,
+      "longitude": -42.786232,
+      "ibge_code": "2211001044",
+      "source_name": "Promorar"
+    },
+    {
+      "id": "real-copagri",
+      "name": "Real Copagri",
+      "latitude": -5.052912,
+      "longitude": -42.816774,
+      "ibge_code": "2211001026",
+      "source_name": "Real Copagri"
+    },
+    {
+      "id": "recanto-das-palmeiras",
+      "name": "Recanto das Palmeiras",
+      "latitude": -5.084004,
+      "longitude": -42.760036,
+      "ibge_code": "2211001080",
+      "source_name": "Recanto das Palmeiras"
+    },
+    {
+      "id": "redencao",
+      "name": "Redenção",
+      "latitude": -5.118179,
+      "longitude": -42.793824,
+      "ibge_code": "2211001008",
+      "source_name": "Redenção"
+    },
+    {
+      "id": "redonda",
+      "name": "Redonda",
+      "latitude": -5.123117,
+      "longitude": -42.748411,
+      "ibge_code": "2211001062",
+      "source_name": "Redonda"
+    },
+    {
+      "id": "renascenca",
+      "name": "Renascença",
+      "latitude": -5.099881,
+      "longitude": -42.741266,
+      "ibge_code": "2211001061",
+      "source_name": "Renascença"
+    },
+    {
+      "id": "saci",
+      "name": "Saci",
+      "latitude": -5.138204,
+      "longitude": -42.803192,
+      "ibge_code": "2211001045",
+      "source_name": "Saci"
+    },
+    {
+      "id": "samapi",
+      "name": "Samapi",
+      "latitude": -5.054116,
+      "longitude": -42.761176,
+      "ibge_code": "2211001083",
+      "source_name": "Samapi"
+    },
+    {
+      "id": "santa-cruz",
+      "name": "Santa Cruz",
+      "latitude": -5.156687,
+      "longitude": -42.785618,
+      "ibge_code": "2211001046",
+      "source_name": "Santa Cruz"
+    },
+    {
+      "id": "santa-isabel",
+      "name": "Santa Isabel",
+      "latitude": -5.075713,
+      "longitude": -42.75774,
+      "ibge_code": "2211001086",
+      "source_name": "Santa Isabel"
+    },
+    {
+      "id": "santa-lia",
+      "name": "Santa Lia",
+      "latitude": -5.061249,
+      "longitude": -42.752541,
+      "ibge_code": "2211001084",
+      "source_name": "Santa Lia"
+    },
+    {
+      "id": "santa-luzia",
+      "name": "Santa Luzia",
+      "latitude": -5.132273,
+      "longitude": -42.80968,
+      "ibge_code": "2211001047",
+      "source_name": "Santa Luzia"
+    },
+    {
+      "id": "santa-maria",
+      "name": "Santa Maria",
+      "latitude": -4.991133,
+      "longitude": -42.842896,
+      "ibge_code": "2211001129",
+      "source_name": "Santa Maria"
+    },
+    {
+      "id": "santa-rosa",
+      "name": "Santa Rosa",
+      "latitude": -5.02478,
+      "longitude": -42.834029,
+      "ibge_code": "2211001111",
+      "source_name": "Santa Rosa"
+    },
+    {
+      "id": "santo-antonio",
+      "name": "Santo Antônio",
+      "latitude": -5.15345,
+      "longitude": -42.775027,
+      "ibge_code": "2211001048",
+      "source_name": "Santo Antônio"
+    },
+    {
+      "id": "sao-cristovao",
+      "name": "São Cristóvão",
+      "latitude": -5.076026,
+      "longitude": -42.773739,
+      "ibge_code": "2211001085",
+      "source_name": "São Cristóvão"
+    },
+    {
+      "id": "sao-joao",
+      "name": "São João",
+      "latitude": -5.088302,
+      "longitude": -42.770258,
+      "ibge_code": "2211001087",
+      "source_name": "São João"
+    },
+    {
+      "id": "sao-joaquim",
+      "name": "São Joaquim",
+      "latitude": -5.055477,
+      "longitude": -42.83645,
+      "ibge_code": "2211001028",
+      "source_name": "São Joaquim"
+    },
+    {
+      "id": "sao-lourenco",
+      "name": "São Lourenço",
+      "latitude": -5.141666,
+      "longitude": -42.760637,
+      "ibge_code": "2211001049",
+      "source_name": "São Lourenço"
+    },
+    {
+      "id": "sao-pedro",
+      "name": "São Pedro",
+      "latitude": -5.118254,
+      "longitude": -42.809926,
+      "ibge_code": "2211001010",
+      "source_name": "São Pedro"
+    },
+    {
+      "id": "sao-raimundo",
+      "name": "São Raimundo",
+      "latitude": -5.09955,
+      "longitude": -42.77215,
+      "ibge_code": "2211001063",
+      "source_name": "São Raimundo"
+    },
+    {
+      "id": "sao-sebastiao",
+      "name": "São Sebastião",
+      "latitude": -5.107968,
+      "longitude": -42.726351,
+      "ibge_code": "2211001064",
+      "source_name": "São Sebastião"
+    },
+    {
+      "id": "satelite",
+      "name": "Satélite",
+      "latitude": -5.049927,
+      "longitude": -42.75625,
+      "ibge_code": "2211001082",
+      "source_name": "Satélite"
+    },
+    {
+      "id": "socopo",
+      "name": "Socopó",
+      "latitude": -5.011862,
+      "longitude": -42.75689,
+      "ibge_code": "2211001081",
+      "source_name": "Socopó"
+    },
+    {
+      "id": "tabajaras",
+      "name": "Tabajaras",
+      "latitude": -5.008075,
+      "longitude": -42.76683,
+      "ibge_code": "2211001088",
+      "source_name": "Tabajaras"
+    },
+    {
+      "id": "tabuleta",
+      "name": "Tabuleta",
+      "latitude": -5.123965,
+      "longitude": -42.804426,
+      "ibge_code": "2211001012",
+      "source_name": "Tabuleta"
+    },
+    {
+      "id": "tancredo-neves",
+      "name": "Tancredo Neves",
+      "latitude": -5.113055,
+      "longitude": -42.769701,
+      "ibge_code": "2211001109",
+      "source_name": "Tancredo Neves"
+    },
+    {
+      "id": "todos-os-santos",
+      "name": "Todos os Santos",
+      "latitude": -5.092497,
+      "longitude": -42.72275,
+      "ibge_code": "2211001065",
+      "source_name": "Todos os Santos"
+    },
+    {
+      "id": "tres-andares",
+      "name": "Três Andares",
+      "latitude": -5.113535,
+      "longitude": -42.785105,
+      "ibge_code": "2211001014",
+      "source_name": "Três Andares"
+    },
+    {
+      "id": "triunfo",
+      "name": "Triunfo",
+      "latitude": -5.127384,
+      "longitude": -42.796016,
+      "ibge_code": "2211001050",
+      "source_name": "Triunfo"
+    },
+    {
+      "id": "uruguai",
+      "name": "Uruguai",
+      "latitude": -5.06729,
+      "longitude": -42.740567,
+      "ibge_code": "2211001089",
+      "source_name": "Uruguai"
+    },
+    {
+      "id": "vale-do-gaviao",
+      "name": "Vale do Gavião",
+      "latitude": -5.027843,
+      "longitude": -42.740582,
+      "ibge_code": "2211001090",
+      "source_name": "Vale do Gavião"
+    },
+    {
+      "id": "vale-quem-tem",
+      "name": "Vale Quem Tem",
+      "latitude": -5.048598,
+      "longitude": -42.739508,
+      "ibge_code": "2211001092",
+      "source_name": "Vale Quem Tem"
+    },
+    {
+      "id": "verde-lar",
+      "name": "Verde Lar",
+      "latitude": -5.039379,
+      "longitude": -42.739073,
+      "ibge_code": "2211001091",
+      "source_name": "Verde Lar"
+    },
+    {
+      "id": "verdecap",
+      "name": "Verdecap",
+      "latitude": -5.110693,
+      "longitude": -42.705973,
+      "ibge_code": "2211001113",
+      "source_name": "Verdecap"
+    },
+    {
+      "id": "vermelha",
+      "name": "Vermelha",
+      "latitude": -5.106067,
+      "longitude": -42.811312,
+      "ibge_code": "2211001018",
+      "source_name": "Vermelha"
+    },
+    {
+      "id": "vila-operaria",
+      "name": "Vila Operária",
+      "latitude": -5.075347,
+      "longitude": -42.817705,
+      "ibge_code": "2211001016",
+      "source_name": "Vila Operária"
+    },
+    {
+      "id": "vila-sao-francisco",
+      "name": "Vila São Francisco",
+      "latitude": -5.033116,
+      "longitude": -42.8224,
+      "ibge_code": "2211001027",
+      "source_name": "Vila São Francisco"
+    },
+    {
+      "id": "zoobotanico",
+      "name": "Zoobotânico",
+      "latitude": -5.04191,
+      "longitude": -42.777999,
+      "ibge_code": "2211001093",
+      "source_name": "Zoobotânico"
+    }
+  ]
+}

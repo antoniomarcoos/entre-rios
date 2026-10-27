@@ -1,0 +1,3 @@
+const assert=require('node:assert/strict');
+(async()=>{const {climateCSV}=await import('../backend/lib/climate-csv.mjs');const data={monthly:[{year:2020,month:1,mean:0,reference:1,anomaly:-1,provisional:false},{year:2020,month:2,mean:null,reference:2,anomaly:null,provisional:true}],point:{latitude:-5,longitude:-42},checked_at:'2026-10-24T00:00:00Z',saved_copy:true};const rows=climateCSV(data).split('\r\n');assert.equal(rows.length,3);assert.ok(rows[1].includes('"2020","1","0","1","-1.000000"'));assert.ok(rows[2].includes('"2020","2","","2","","true"'));assert.ok(rows[0].includes('copia_salva'));assert.ok(rows[1].endsWith('"true"'));
+console.log('PASS CSV: missing vs zero, provenance and saved-copy metadata.');})().catch(e=>{console.error(e);process.exitCode=1});

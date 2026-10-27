@@ -1,0 +1,16 @@
+import assert from 'node:assert/strict';
+import {productPath,normalizeWarnings,meteorology} from '../backend/lib/inmet-data.mjs';
+assert.equal(productPath('humidity',7),'https://portal.inmet.gov.br/uploads/previsao/web_BR_umin_7.jpg');
+for(const [field,day]of [['rain',0],['rain',8],['rain',1.5],['https://example.org',1]])assert.throws(()=>productPath(field,day));
+assert.throws(()=>normalizeWarnings({hoje:[]}));
+const base={id:1,geocodes:'12211001',aviso_cor:'#ff9900',poligono:'{"type":"Polygon","coordinates":[]}'};
+assert.equal(normalizeWarnings({hoje:[base],futuro:[]})[0].teresina,false);
+assert.equal(normalizeWarnings({hoje:[{...base,geocodes:'1200013, 2211001'}],futuro:[]})[0].teresina,true);
+assert.equal(normalizeWarnings({hoje:[{...base,encerrado:true}],futuro:[]}).length,0);
+let calls=0;globalThis.fetch=async()=>{calls++;return Response.json([{nome:'Teresina',resumo:'Poucas nuvens',cor:'hsla(125,100%,28%,1)',poligono:base.poligono}])};
+const date=new Date(Date.now()-10800000).toISOString().slice(0,10),options={date,period:'manha'};
+const results=await Promise.all([meteorology('forecast',options),meteorology('forecast',options)]);
+assert.equal(calls,1);assert.equal(results[0].data[0].color,'hsla(125,100%,28%,1)');
+await meteorology('forecast',options);assert.equal(calls,1);
+await assert.rejects(()=>meteorology('forecast',{date:'1990-01-01',period:'manha'}));
+console.log('PASS INMET: fixed image URLs, day limits, municipal matching, closed warnings, source colors, date validation, cache and request deduplication.');
